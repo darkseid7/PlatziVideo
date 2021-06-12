@@ -1,0 +1,9 @@
+este proyecto esta instalador react 
+El encarpetador principal es:
+public: que es donde est[an todos los assets que se haran publicos al mandalo a produccion
+src: que es la mas importante y donde estara el codigo de nuestra apliacacion 
+src/components: es donde iran tdos los componentes de nuestra aplicacion
+src/index.js: es el core de la aplicacion en react
+
+luego de tener este encarpetado corremos el comando 
+npm install react-dom para instalar react en el proyecto
