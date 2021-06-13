@@ -7,3 +7,30 @@ src/index.js: es el core de la aplicacion en react
 
 luego de tener este encarpetado corremos el comando 
 npm install react-dom para instalar react en el proyecto
+
+luego ejecutamos el comando para instalar babel que nos permite hacer que usemos js moderno y este lo 
+traduzca a los navegadores mas antiguos
+npm install @babel/core babel-loader @babel/preset-env 
+@babel/preset-react
+
+Luego ejecutamos el siquiente comando para instalar webpack
+npm install webpack webpack-cli html-webpack-plugin html-loader --save-dev
+
+luego este otro para validar que todo esta en orden y no tenemos errores en la configuracion del proyecto
+npm run build
+
+luego este otro comandonpm que nos permite crear por asi decirlo un compilador de nuestro codigo para el manejo de errores y
+adem[as de actualizar los cambios en tiempo real
+install webpack-dev-server --save-dev
+
+luego este para inicuar nuestro proyecto en un entorno local
+npm run start
+
+luesgo este comando para instalar sass en el proyecto 
+npm install mini-css-extract-plugin css-loader node-sass sass-loader --save-dev
+
+Luego tenemos este comando para instalar EsLint el cual est[a haciendo uso de un plugin el cual es airbnb
+npm install eslint babel-eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y
+
+Luego tenemos este comando para instalar el file loader para las imagenes
+npm install file-loader --save-dev    
